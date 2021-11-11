@@ -2,5 +2,5 @@
     <div class="pull-right hidden-xs">
       <b>Voting System</b>
     </div>
-    <strong> &copy; 2018 Brought To You By <a href="https://code-projects.org/">Code-Projects</a></strong>
-</footer>
+    <strong>The Leeward Islands Federal Elections Commission</a></strong>
+</footer> 

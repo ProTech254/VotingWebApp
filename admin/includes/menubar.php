@@ -20,6 +20,8 @@
       <li class=""><a href="voters.php"><i class="fa fa-users"></i> <span>Voters</span></a></li>
       <li class=""><a href="positions.php"><i class="fa fa-tasks"></i> <span>Positions</span></a></li>
       <li class=""><a href="candidates.php"><i class="fa fa-black-tie"></i> <span>Candidates</span></a></li>
+      <li class=""><a href="party.php"><i class="fa fa-user-circle"></i> <span>Parties</span></a></li>
+      <li class=""><a href="constituency.php"><i class="fa fa-street-view"></i> <span>Constituencies</span></a></li>
       <li class="header">SETTINGS</li>
       <li class=""><a href="ballot.php"><i class="fa fa-file-text"></i> <span>Ballot Position</span></a></li>
       <li class=""><a href="#config" data-toggle="modal"><i class="fa fa-cog"></i> <span>Election Title</span></a></li>

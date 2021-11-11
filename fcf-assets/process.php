@@ -1,19 +1,5 @@
 <?php
-// ***********************************************************
-// This file is part of a package from:
-// www.freecontactform.com
-
-// Free Version
-// May 2021
-
-// You are free to use for your own use. 
-// You cannot resell, share or repackage in any way.
-
-// Important legal notice:
-// You must retain the attribution to www.freecontactform.com 
-// If must be visible on the same page as the form.
-// Or switch to the Pro version without attribution/credit.
-// ***********************************************************
+**********************************************************
 
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\SMTP;
@@ -22,9 +8,7 @@ $lk = KEY;
 
 $lang = getLangFile();
 
-// *******************
-// CHECK CONFIGURATION
-// *******************
+
 checkConfigurationExists($lang);
 
 $expected_fields_check = checkFieldsExist($rules, $lang);
