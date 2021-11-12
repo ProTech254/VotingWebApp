@@ -33,6 +33,7 @@
         		</div>
       		</div>
     	</form>
+		<a href="admin/">admin login</a>
   	</div>
   	<?php
   		if(isset($_SESSION['error'])){

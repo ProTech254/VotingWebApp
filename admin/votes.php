@@ -47,7 +47,11 @@
           <div class="box">
             <div class="box-header with-border">
               <a href="#reset" data-toggle="modal" class="btn btn-danger btn-sm btn-flat"><i class="fa fa-refresh"></i> Reset</a>
+              <span class="pull-right">
+              <button class="btn btn-primary btn btn-info" onclick="window.print()"><span class="glyphicon glyphicon-print" aria-hidden="true"></span> Print Report</button>
+            </span>
             </div>
+            
             <div class="box-body">
               <table id="example1" class="table table-bordered">
                 <thead>

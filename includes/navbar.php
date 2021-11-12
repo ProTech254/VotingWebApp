@@ -25,7 +25,9 @@
       <!-- Navbar Right Menu -->
       <div class="navbar-custom-menu">
         <ul class="nav navbar-nav">
-        <li><a href="contact.php"><i class="fa fa-fax"></i> Contact us</a></li> 
+        <li><a href="contact.php"><i class="fa fa-fax"></i> View Parties</a></li> 
+        <li><a href="home.php"><i class="fa fa-fax"></i>View Constituencies</a></li> 
+        <li><a href="home.php"><i class="fa fa-fax"></i> Contact us</a></li> 
           
           <li class="user user-menu">
             <a href="">

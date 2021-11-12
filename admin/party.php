@@ -11,11 +11,11 @@
     <!-- Content Header (Page header) -->
     <section class="content-header">
       <h1>
-        Constituency
+        Parties
       </h1>
       <ol class="breadcrumb">
         <li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
-        <li class="active">Constituency</li>
+        <li class="active">party</li>
       </ol>
     </section>
     <!-- Main content -->
@@ -55,13 +55,15 @@
               <table id="example1" class="table table-bordered">
                 <thead>
                   <th class="hidden"></th>
-                  <th>ConstituencyName</th>
-                  <th>RegisteredVoters</th>
+                  <th>Party Name</th>
+                  <th>Party Leader</th>
+                  <th>FundsRaised</th>
+                  
                
                 </thead>
                 <tbody>
                   <?php
-                   $sql = "SELECT * FROM constituency";
+                   $sql = "SELECT * FROM party";
                    $query = $conn->query($sql);
                    while($row = $query->fetch_assoc()){
                       $image = (!empty($row['photo'])) ? '../images/'.$row['photo'] : '../images/profile.jpg';
@@ -69,8 +71,9 @@
                         <tr>
                           <td class='hidden'></td>
                      
-                          <td>".$row['ConstituencyName']."</td>
-                          <td>".$row['RegisteredVoters.']."</td>
+                          <td>".$row['PartyName']."</td>
+                          <td>".$row['PartyLeader']."</td>
+                          <td>".$row['FundRaised']."</td>
                          
                         </tr>
                       ";

@@ -132,7 +132,7 @@
         <div class="col-xs-12">
           <h3>Votes Tally
             <span class="pull-right">
-              <a href="../spreadsheet.htm" class="btn btn-success btn-sm btn-flat"><span class="glyphicon glyphicon-print"></span> Print</a>
+              <button class="btn btn-primary btn btn-info" onclick="window.print()"><span class="glyphicon glyphicon-print" aria-hidden="true"></span> Print Report</button>
             </span>
           </h3>
         </div>
@@ -244,8 +244,12 @@
       //document.getElementById('legend_'+rowid).innerHTML = myChart.generateLegend();
     });
     </script>
+
+
     <?php
   }
 ?>
 </body>
+
+
 </html>

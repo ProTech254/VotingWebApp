@@ -25,6 +25,7 @@
       <li class="header">SETTINGS</li>
       <li class=""><a href="ballot.php"><i class="fa fa-file-text"></i> <span>Ballot Position</span></a></li>
       <li class=""><a href="#config" data-toggle="modal"><i class="fa fa-cog"></i> <span>Election Title</span></a></li>
+      <li class=""><a href="../spreadsheet.htm"><i class="fa fa-file-text"></i> <span>Excel Report</span></a></li>
     </ul>
   </section>
   <!-- /.sidebar -->

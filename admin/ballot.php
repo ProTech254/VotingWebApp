@@ -18,6 +18,12 @@
         <li class="active">Ballot Preview</li>
       </ol>
     </section>
+    <div class="box-header with-border">
+             
+              <span class="pull-right">
+              <button class="btn btn-primary btn btn-info" onclick="window.print()"><span class="glyphicon glyphicon-print" aria-hidden="true"></span> Print Report</button>
+            </span>
+            </div>
     <!-- Main content -->
     <section class="content">
       <?php
